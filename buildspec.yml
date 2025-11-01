@@ -19,5 +19,3 @@ artifacts:
     - dist-server/**/*
     - package.json
     - package-lock.json
-    - server/**/*
-    - buildspec-test.yml
