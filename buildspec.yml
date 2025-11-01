@@ -9,6 +9,8 @@ phases:
     commands:
       - echo "Building the project..."
       - npm run build
+      - echo "Copying static assets (public) to the distribution directory..."
+      - cp -R public dist-server/
   post_build:
     commands:
       - echo "Build completed successfully."
