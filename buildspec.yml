@@ -18,6 +18,4 @@ phases:
 
 artifacts:
   files:
-    - dist-server/**/*
-    - package.json
-    - package-lock.json
+    - "**/*"
